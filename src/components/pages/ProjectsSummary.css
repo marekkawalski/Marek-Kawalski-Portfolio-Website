@@ -1,0 +1,86 @@
+h5 {
+  font-weight: bold;
+  margin-left: 0;
+}
+p {
+  padding-bottom: 12px;
+}
+
+.Project-Element-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 80px;
+  height: auto;
+  align-items: center;
+  border-bottom: 1px solid rgb(230, 236, 248);
+  border-top: 0px;
+}
+.Project-Element-Container:last-child {
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.Project-Element-Child {
+  margin: 0px;
+  flex: 50%;
+  height: inherit;
+  align-items: center;
+}
+.Project-Element-Child:first-child {
+  text-align: center;
+}
+.project-image {
+  width: 80%;
+  border: 0px;
+}
+.badge-sm {
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.badge-primary {
+  color: #fff;
+  background-color: var(--main-purple);
+}
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 60%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+.buttons {
+  text-align: center;
+}
+.btn-learn-more {
+  text-align: left;
+  width: fit-content;
+}
+.myProjectDescription {
+  max-width: 500px;
+}
+@media only screen and (max-width: 768px) {
+  .Project-Element-Child {
+    flex: 100%;
+    padding-top: 25px;
+  }
+  .btn-learn-more {
+    text-align: right;
+  }
+}

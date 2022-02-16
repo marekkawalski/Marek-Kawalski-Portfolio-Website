@@ -1,0 +1,863 @@
+/***************Code animation******************/
+:root {
+  --orchid: #f92672;
+  --br-blue: #66d9ef;
+  --henn1nk: #a6e22e;
+  --spice: #fd971f;
+  --classColour: #ffe792;
+  --parColour: #f8f8f2;
+}
+
+.coding-wrapper {
+  height: 340.5px;
+  margin: 0;
+  overflow: hidden;
+}
+.loader-container {
+  width: 400px;
+  height: 175px;
+  margin: auto;
+  margin-top: 10vh;
+  overflow: hidden;
+}
+.line {
+  margin-top: 5px;
+}
+.dash {
+  height: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.div {
+  background: var(--orchid);
+}
+.class-name {
+  background: var(--henn1nk);
+}
+.class {
+  background: var(--classColour);
+}
+.par {
+  background: var(--parColour);
+}
+.exp-40 {
+  animation: expand-40 0.2s linear forwards;
+}
+.exp-70 {
+  animation: expand-70 0.2s linear forwards;
+}
+.exp-90 {
+  animation: expand-90 0.2s linear forwards;
+}
+.exp-110 {
+  animation: expand-110 0.2s linear forwards;
+}
+.exp-200 {
+  animation: expand-200 0.2s linear forwards;
+}
+.exp-300 {
+  animation: expand-300 0.2s linear forwards;
+}
+.line1 .dash-2 {
+  animation-delay: 0.1s;
+}
+.line1 .dash-3 {
+  animation-delay: 0.2s;
+}
+.line1 .dash-4 {
+  animation-delay: 0.3s;
+}
+.line2 {
+  margin-left: 10%;
+}
+.line2 .dash-1 {
+  animation-delay: 0.4s;
+}
+.line2 .dash-2 {
+  animation-delay: 0.5s;
+}
+.line2 .dash-3 {
+  animation-delay: 0.6s;
+}
+.line3 {
+  margin-left: 20%;
+}
+.line3 .dash-1 {
+  animation-delay: 0.7s;
+}
+.line4 {
+  margin-left: 20%;
+}
+.line4 .dash-1 {
+  animation-delay: 0.8s;
+}
+.line5 {
+  margin-left: 10%;
+}
+.line5 .dash-1 {
+  animation-delay: 0.85s;
+}
+.line6 .dash-1 {
+  animation-delay: 0.925s;
+}
+.group-1 {
+  animation: scroll 1s linear infinite;
+  animation-delay: 1s;
+  position: relative;
+}
+.group-2 {
+  animation: scroll 1s linear infinite;
+  animation-delay: 1s;
+  position: relative;
+}
+.group-2 .line1 .dash-1 {
+  animation: line1dash1 1s linear infinite;
+}
+.group-2 .line1 .dash-2 {
+  animation: line1dash2 1s linear infinite;
+}
+.group-2 .line1 .dash-3 {
+  animation: line1dash3 1s linear infinite;
+}
+.group-2 .line1 .dash-4 {
+  animation: line1dash4 1s linear infinite;
+}
+.group-2 .line2 .dash-1 {
+  animation: line2dash1 1s linear infinite;
+}
+.group-2 .line2 .dash-2 {
+  animation: line2dash2 1s linear infinite;
+}
+.group-2 .line2 .dash-3 {
+  animation: line2dash3 1s linear infinite;
+}
+.group-2 .line3 .dash-1 {
+  animation: line3dash1 1s linear infinite;
+}
+.group-2 .line4 .dash-1 {
+  animation: line4dash1 1s linear infinite;
+}
+.group-2 .line5 .dash-1 {
+  animation: line5dash1 1s linear infinite;
+}
+.group-2 .line6 .dash-1 {
+  animation: line6dash1 1s linear infinite;
+}
+
+/*keyframes for group2*/
+@keyframes line1dash1 {
+  0% {
+    width: 0px;
+  }
+  20% {
+    width: 40px;
+  }
+  100% {
+    width: 40px;
+  }
+}
+@keyframes line1dash2 {
+  0% {
+    width: 0px;
+  }
+  10% {
+    width: 0px;
+  }
+  30% {
+    width: 70px;
+  }
+  100% {
+    width: 70px;
+  }
+}
+@keyframes line1dash3 {
+  0% {
+    width: 0px;
+  }
+  20% {
+    width: 0px;
+  }
+  40% {
+    width: 110px;
+  }
+  100% {
+    width: 110px;
+  }
+}
+@keyframes line1dash4 {
+  0% {
+    width: 0px;
+  }
+  30% {
+    width: 0px;
+  }
+  50% {
+    width: 70px;
+  }
+  100% {
+    width: 70px;
+  }
+}
+@keyframes line2dash1 {
+  0% {
+    width: 0px;
+  }
+  40% {
+    width: 0px;
+  }
+  60% {
+    width: 40px;
+  }
+  100% {
+    width: 40px;
+  }
+}
+@keyframes line2dash2 {
+  0% {
+    width: 0px;
+  }
+  50% {
+    width: 0px;
+  }
+  70% {
+    width: 70px;
+  }
+  100% {
+    width: 70px;
+  }
+}
+@keyframes line2dash3 {
+  0% {
+    width: 0px;
+  }
+  60% {
+    width: 0px;
+  }
+  80% {
+    width: 90px;
+  }
+  100% {
+    width: 90px;
+  }
+}
+@keyframes line3dash1 {
+  0% {
+    width: 0px;
+  }
+  60% {
+    width: 0px;
+  }
+  80% {
+    width: 300px;
+  }
+  100% {
+    width: 300px;
+  }
+}
+@keyframes line4dash1 {
+  0% {
+    width: 0px;
+  }
+  70% {
+    width: 0px;
+  }
+  90% {
+    width: 200px;
+  }
+  100% {
+    width: 200px;
+  }
+}
+@keyframes line5dash1 {
+  0% {
+    width: 0px;
+  }
+  75% {
+    width: 0px;
+  }
+  85% {
+    width: 40px;
+  }
+  100% {
+    width: 40px;
+  }
+}
+@keyframes line6dash1 {
+  0% {
+    width: 0px;
+  }
+  85% {
+    width: 0px;
+  }
+  100% {
+    width: 40px;
+  }
+}
+@keyframes expand-40 {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 40px;
+  }
+}
+@keyframes expand-70 {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 70px;
+  }
+}
+@keyframes expand-90 {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 90px;
+  }
+}
+@keyframes expand-110 {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 110px;
+  }
+}
+@keyframes expand-200 {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 200px;
+  }
+}
+@keyframes expand-300 {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 300px;
+  }
+}
+@keyframes scroll {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -175px;
+  }
+}
+
+/*********************Bike styles****************************************/
+.bike-wrapper {
+  display: block;
+  position: absolute;
+  margin: 0;
+  top: 120px;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  max-width: 350px;
+  max-height: 300px;
+  overflow: hidden;
+}
+.bicycle-container {
+  margin: 0;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  min-width: 400px;
+}
+
+.bicycle-container .wheel {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 120px;
+  height: 120px;
+  box-shadow: 0 10px 15px -12px #0000004d;
+}
+
+.bicycle-container .wheel .tire {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  border: 10px solid #151515;
+  z-index: 2;
+}
+
+.bicycle-container .wheel .rim {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 114px;
+  height: 114px;
+  border-radius: 50%;
+  border: 10px solid var(--my-green);
+  z-index: 1;
+}
+
+.bicycle-container .wheel .spokes {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 3px solid var(--my-green);
+  z-index: 1;
+  animation: rt 2s infinite linear;
+  background: #c864641a;
+}
+
+.bicycle-container .wheel .spokes:nth-of-type(3) {
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid var(--my-green);
+}
+
+.bicycle-container .wheel .hub {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--my-green);
+}
+
+.bicycle-container .back-wheel {
+  left: 0;
+}
+
+.bicycle-container .front-wheel {
+  right: 0;
+}
+
+.bicycle-container .gear {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: calc(120px + 39.6px);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--my-green);
+  z-index: 4;
+  animation: rt 3s infinite linear;
+}
+
+.bicycle-container .gear .gear-red {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 3px solid #131312;
+}
+
+.bicycle-container .gear .pedal-tube {
+  position: absolute;
+  margin: auto;
+  top: -30px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: rotate(-90deg);
+  width: 20px;
+}
+
+.bicycle-container .gear .pedal {
+  position: absolute;
+  margin: auto;
+  top: -50px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 5px;
+  background: #161515;
+  border-radius: 5px;
+  z-index: 3;
+}
+
+.bicycle-container .tube {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  height: 5px;
+  border-radius: 5px;
+  background: #090a0a;
+  z-index: 3;
+}
+
+.bicycle-container .chain-tube {
+  left: calc(120px / 2);
+  width: 120px;
+}
+
+.bicycle-container .seat-tube-back {
+  left: calc(120px / 2);
+  transform-origin: left;
+  transform: rotate(-60deg);
+  width: 120px;
+}
+
+.bicycle-container .seat-tube-front {
+  left: calc(120px / 2);
+  transform-origin: right;
+  transform: rotate(60deg);
+  width: 120px;
+}
+
+.bicycle-container .seat-tube-post {
+  left: calc((120px / 2) - 20px);
+  transform-origin: right;
+  transform: rotate(60deg);
+  background: #110e0e;
+  z-index: 1;
+  height: calc(5px - 1px);
+  width: 140px;
+}
+
+.bicycle-container .top-tube {
+  left: 120px;
+  bottom: initial;
+  top: 44px;
+  width: 113px;
+}
+
+.bicycle-container .top-handlebar-tube {
+  right: 112px;
+  bottom: initial;
+  top: 25px;
+  width: 20px;
+  background: var(--my-green);
+}
+
+.bicycle-container .top-handlebar-tube2 {
+  right: 90px;
+  bottom: initial;
+  top: 25px;
+  width: 25px;
+  background: var(--my-green);
+  border-radius: 0%;
+}
+
+.bicycle-container .down-tube {
+  left: calc(120px + 60px);
+  width: 100px;
+  transform-origin: left;
+  transform: rotate(-50deg);
+}
+
+.bicycle-container .head-tube {
+  right: calc(120px / 2);
+  transform-origin: right;
+  transform: rotate(60deg);
+  width: 120px;
+}
+
+.bicycle-container .head-tube-post {
+  right: calc(120px / 2);
+  transform-origin: right;
+  transform: rotate(60deg);
+  width: 140px;
+  background: #0e130f;
+  z-index: 1;
+  height: calc(5px - 1px);
+}
+
+.bicycle-container .saddle {
+  position: absolute;
+  margin: auto;
+  top: 20px;
+  left: 85px;
+  width: 50px;
+  height: 10px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 50%;
+  background: #151515;
+  z-index: 2;
+}
+
+.bicycle-container .handlebars {
+  position: absolute;
+  margin: auto;
+  top: 25px;
+  right: calc(100px / 2 + 25px);
+  width: 30px;
+  height: 30px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top: 5px solid var(--my-green);
+  border-right: 5px solid var(--my-green);
+  border-bottom: 5px solid var(--my-green);
+  z-index: 2;
+}
+
+.ground-container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 340px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.ground-container .ground {
+  position: absolute;
+  margin: auto;
+  animation: mv infinite linear;
+  background: #1a3116;
+  z-index: -1;
+}
+
+.ground-container .ground1 {
+  bottom: 0;
+  right: -150px;
+  width: 100px;
+  height: 4px;
+  border-radius: 10px;
+  animation-duration: 3s;
+  z-index: 5;
+}
+
+.ground-container .ground1:before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  top: -30px;
+  left: 150px;
+  width: 30px;
+  height: 20px;
+  border-top-right-radius: 60%;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 20%;
+  background: #351919;
+}
+
+.ground-container .ground2 {
+  bottom: 70px;
+  right: -250px;
+  width: 100px;
+  height: 2px;
+  border-radius: 10px;
+  animation-duration: 4s;
+}
+
+.ground-container .ground2:before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  top: -30px;
+  left: 200px;
+  width: 10px;
+  height: 10px;
+  border-top-right-radius: 60%;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 20%;
+  background: #351616;
+}
+
+.ground-container .ground3 {
+  top: 50px;
+  right: -300px;
+  width: 100px;
+  height: 2px;
+  border-radius: 10px;
+  animation-duration: 5s;
+}
+
+.ground-container .ground3:before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  top: 10px;
+  left: -100px;
+  width: 10px;
+  height: 5px;
+  border-top-right-radius: 60%;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 20%;
+  background: #442323;
+}
+
+@keyframes rt {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes mv {
+  100% {
+    right: 900px;
+  }
+}
+/*****************hacker styles*****************************/
+.hacker-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.inside-wrapper {
+  position: absolute;
+  display: block;
+  margin: 0;
+  top: 360px;
+}
+.hood {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background-color: #aeaeaf;
+  top: -200px;
+  left: 25%;
+  transform: rotate(45deg);
+  border-radius: 55px;
+}
+.hood::after {
+  content: "";
+  width: 129px;
+  top: 16px;
+  height: 129px;
+  position: absolute;
+  background-color: #000000;
+  border-top-left-radius: 120px;
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 50px;
+  left: 17px;
+}
+.spects {
+  width: 100px;
+  height: 50px;
+  transform: rotate(135deg);
+  position: absolute;
+  top: 58px;
+  left: 33px;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spects span {
+  width: 43px;
+  height: 27px;
+  background-color: #5d5959;
+  border: solid 2px #cccaca;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.shoulder {
+  width: 300px;
+  height: 210px;
+  background-color: #aeaeaf;
+  border-radius: 50%;
+  top: -55px;
+  position: absolute;
+}
+.neck {
+  background-color: grey;
+  width: 20%;
+  height: 17%;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin: 2px auto;
+  display: flex;
+  justify-content: center;
+}
+.neck::after {
+  content: "";
+  position: absolute;
+  background-color: #000000;
+  width: 17%;
+  height: 12%;
+  margin: -3px auto;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.lap-screen {
+  width: 300px;
+  height: 180px;
+  background: #313131;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lap-screen::after {
+  content: "";
+  background-color: white;
+  border-bottom: solid 20px white;
+  border-left: solid 10px #313131;
+  border-right: solid 10px #313131;
+}
+.base {
+  position: absolute;
+  bottom: -9px;
+  background-color: black;
+  width: 100%;
+  height: 8px;
+  border-radius: 2px;
+}
+.base::after {
+  content: "";
+  width: 70%;
+  position: absolute;
+  height: 5px;
+  background-color: black;
+  top: -3px;
+  left: 15%;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: #004e00;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 72px;
+}
+@media (max-width: 900px) {
+  .overlay {
+    font-size: 36px;
+  }
+}

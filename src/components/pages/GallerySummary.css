@@ -1,0 +1,63 @@
+section > p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.photo-container-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.photo-container {
+  flex: 25%;
+  overflow: hidden;
+  cursor: pointer;
+  width: 100%;
+  margin: 0px;
+  background-color: black;
+}
+
+.photo-container .img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+  opacity: 0.8;
+  transition-duration: 1.8s;
+  margin: 0;
+  padding: 0;
+}
+.photo-container:hover .img {
+  transform: scale(1.2);
+  transform: scale(1.2);
+  transform: scale(1.2);
+  z-index: 0;
+  opacity: 1;
+}
+
+.lazy-load-image-background {
+  height: 100%;
+}
+.blur {
+  height: 100%;
+}
+.lazy-load-image-loaded {
+  height: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .photo-container-parent .photo-container {
+    flex: 33.33%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-container-parent .photo-container {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .photo-container-parent .photo-container {
+    flex: 100%;
+  }
+}
