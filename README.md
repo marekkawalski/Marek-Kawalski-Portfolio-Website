@@ -9,6 +9,12 @@
     <a href="/README.md/#technologies">Technologies used</a>
   </li>
    <li>
+    <a href="/README.md/#environment">Programming environment</a>
+  </li>
+     <li>
+    <a href="/README.md/#status">Project status</a>
+  </li>
+   <li>
     <a href="/README.md/#linkToWebsite">Link to my website</a>
   </li>
   </ul>
@@ -35,6 +41,14 @@ to write more or less clean code. I recently learned that not only is functional
    react.js
   </li>
   </ul>
+   <h2 id="environment">Programming environment</h2>
+   <ul>
+  <li>
+   Visual studio code
+  </li>
+  </ul>
+    <h2 id="status">Project status</h2>
+    <p>Website is fully working. Updates are performed when needed.</p>
  <h2 id="linkToWebsite">Link to my portfolio website</h2>
  <a href="https://marekkawalski.netlify.app/#/" target="_blank" rel="noreferrer">marekkawalski.netlify.app</a>
               
