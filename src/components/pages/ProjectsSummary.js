@@ -9,6 +9,7 @@ import snakeImg from "../../resources/photos/myProjects/snake.webp";
 import contrastImg from "../../resources/photos/myProjects/contrast.webp";
 import polynomialCalculatorImg from "../../resources/photos/myProjects/polynomialCalculator.webp";
 import arduinoProject from "../../resources/photos/myProjects/arduinoProject.webp";
+import fuelCostCalculator from "../../resources/photos/myProjects/fuelCostCalculator.png";
 
 function ProjectsSummary() {
   const orderFunctions = {
@@ -69,6 +70,43 @@ function ProjectsSummary() {
           </Button>
         </div>
         <div className="items">
+          <div className="Project-Element-Container" data-value="95">
+            <div className="Project-Element-Child">
+              <LazyLoadImage
+                className="project-image"
+                alt={"Fuel cost calculator"}
+                height={"100%"}
+                width={"400px"}
+                src={fuelCostCalculator} // use normal <img> attributes as props
+                effect="blur"
+                delayTime={800}
+              />
+            </div>
+            <div className="Project-Element-Child">
+              <h5>
+                Fuel cost calculator{" "}
+                <span className="badge badge-primary badge-sm">2022</span>
+                <span className="badge badge-primary badge-sm">kotlin</span>
+                <span className="badge badge-primary badge-sm">xml</span>
+              </h5>
+              <p className="myProjectDescription">
+                {" "}
+                The goal of this project was to create an app that can solve a
+                real life problem, namely how much should you charge your
+                passengers for fuel when you are on holidays, you are their
+                driver and each passenger covers different distances?
+              </p>
+              <a
+                className="noLinkLight"
+                href="https://github.com/marekkawalski/FuelCostCalculator"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <Button buttonStyle="btn--outline">View on github</Button>
+              </a>
+            </div>
+          </div>
           <div className="Project-Element-Container" data-value="96">
             <div className="Project-Element-Child">
               <LazyLoadImage
@@ -97,7 +135,7 @@ function ProjectsSummary() {
               </p>
               <a
                 className="noLinkLight"
-                href="https://github.com/marekkawalski"
+                href="https://github.com/marekkawalski/ChangeImageContrast"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -134,7 +172,7 @@ function ProjectsSummary() {
               </p>
               <a
                 className="noLinkLight"
-                href="https://github.com/marekkawalski"
+                href="https://github.com/marekkawalski/Polynomial-Calculator"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -170,7 +208,7 @@ function ProjectsSummary() {
               <div className="btn-learn-more">
                 <a
                   className="noLinkLight"
-                  href="https://github.com/marekkawalski"
+                  href="https://github.com/marekkawalski/BikeLEDWithArduino"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -255,7 +293,7 @@ function ProjectsSummary() {
               </p>
               <a
                 className="noLinkLight"
-                href="https://github.com/marekkawalski"
+                href="https://github.com/marekkawalski/Snake-Game-Marek-Kawalski"
                 target="_blank"
                 rel="noopener noreferrer"
               >

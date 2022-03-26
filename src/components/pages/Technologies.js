@@ -29,9 +29,9 @@ function Technologies() {
                   </p>
 
                   <p className="list-title ">Languages I speak:</p>
-                  <p>Java, C++</p>
+                  <p>Java, Kotlin, C++, C#</p>
                   <p className="list-title ">Languages I know a little bit:</p>
-                  <p> C#, Swift, Kotlin</p>
+                  <p> Swift</p>
                   <p className="list-title">Dev Tools:</p>
                   <ul>
                     <li>Visual Studio</li>
