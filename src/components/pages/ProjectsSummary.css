@@ -75,6 +75,9 @@ p {
 .myProjectDescription {
   max-width: 500px;
 }
+.vertical-image {
+  max-height: 90vh;
+}
 @media only screen and (max-width: 768px) {
   .Project-Element-Child {
     flex: 100%;

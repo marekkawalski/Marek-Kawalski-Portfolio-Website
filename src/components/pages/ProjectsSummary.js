@@ -73,10 +73,8 @@ function ProjectsSummary() {
           <div className="Project-Element-Container" data-value="95">
             <div className="Project-Element-Child">
               <LazyLoadImage
-                className="project-image"
+                className="project-image vertical-image"
                 alt={"Fuel cost calculator"}
-                height={"100%"}
-                width={"400px"}
                 src={fuelCostCalculator} // use normal <img> attributes as props
                 effect="blur"
                 delayTime={800}
@@ -88,6 +86,7 @@ function ProjectsSummary() {
                 <span className="badge badge-primary badge-sm">2022</span>
                 <span className="badge badge-primary badge-sm">kotlin</span>
                 <span className="badge badge-primary badge-sm">xml</span>
+                <span className="badge badge-primary badge-sm">Android</span>
               </h5>
               <p className="myProjectDescription">
                 {" "}
@@ -103,7 +102,20 @@ function ProjectsSummary() {
                 rel="noopener noreferrer"
               >
                 {" "}
-                <Button buttonStyle="btn--outline">View on github</Button>
+                <Button buttonStyle="btn--outline">
+                  <i class="fab fa-github"></i> View on github
+                </Button>
+              </a>
+              <a
+                className="noLinkLight"
+                href="https://play.google.com/store/apps/details?id=com.marekkawalski.fuelcostcalculator"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <Button buttonStyle="btn">
+                  <i class="fab fa-google-play"></i> Google Play
+                </Button>
               </a>
             </div>
           </div>
@@ -140,7 +152,9 @@ function ProjectsSummary() {
                 rel="noopener noreferrer"
               >
                 {" "}
-                <Button buttonStyle="btn--outline">View on github</Button>
+                <Button buttonStyle="btn--outline">
+                  <i class="fab fa-github"></i> View on github
+                </Button>
               </a>
             </div>
           </div>
@@ -177,7 +191,9 @@ function ProjectsSummary() {
                 rel="noopener noreferrer"
               >
                 {" "}
-                <Button buttonStyle="btn--outline">View on github</Button>
+                <Button buttonStyle="btn--outline">
+                  <i class="fab fa-github"></i> View on github
+                </Button>
               </a>
             </div>
           </div>
@@ -213,7 +229,9 @@ function ProjectsSummary() {
                   rel="noopener noreferrer"
                 >
                   {" "}
-                  <Button buttonStyle="btn--outline">View on github</Button>
+                  <Button buttonStyle="btn--outline">
+                    <i class="fab fa-github"></i> View on github
+                  </Button>
                 </a>
               </div>
             </div>
@@ -260,7 +278,9 @@ function ProjectsSummary() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button buttonStyle="btn--outline">poradniazerniki.pl</Button>
+                  <Button buttonStyle="btn--outline">
+                    <i class="fas fa-external-link-alt"></i> go to website
+                  </Button>
                 </a>{" "}
               </div>
             </div>
@@ -298,7 +318,9 @@ function ProjectsSummary() {
                 rel="noopener noreferrer"
               >
                 {" "}
-                <Button buttonStyle="btn--outline">View on github</Button>
+                <Button buttonStyle="btn--outline">
+                  <i class="fab fa-github"></i> View on github
+                </Button>
               </a>
             </div>
           </div>

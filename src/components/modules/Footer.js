@@ -49,7 +49,7 @@ function footer() {
                   <i className="fa fa-university"></i> IT student at SUT
                 </li>
                 <li>
-                  <i className="fas fa-external-link-square-alt"> </i>
+                  <i class="fab fa-github"></i>
                   <a
                     className="noLinkLight"
                     href="https://github.com/marekkawalski/"
@@ -57,6 +57,28 @@ function footer() {
                     rel="noreferrer"
                   >
                     <span> </span> Github Profile
+                  </a>
+                </li>
+                <li>
+                  <i class="fab fa-linkedin"></i>
+                  <a
+                    className="noLinkLight"
+                    href="https://www.linkedin.com/in/marekkawalski/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span> </span> LinkedIn Profile
+                  </a>
+                </li>
+                <li>
+                  <i class="fab fa-google-play"></i>
+                  <a
+                    className="noLinkLight"
+                    href="https://play.google.com/store/apps/developer?id=Marek+Kawalski"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span> </span>Google Play Store
                   </a>
                 </li>
               </ul>
@@ -104,19 +126,6 @@ function footer() {
             </div>
           </div>
           <div className="contentBottomSpace"></div>
-          <div className="contributors">
-            <p className="contributor">
-              <strong>Other Websites:</strong>{" "}
-              <a
-                className="noLinkLight"
-                href="https://poradniazerniki.pl/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                NZOZ Poradnia Lekarza Rodzinnego Żerniki
-              </a>
-            </p>
-          </div>
         </div>
         <p className="Copyright">
           Copyright &copy; {new Date().getFullYear()} Marek Kawalski
