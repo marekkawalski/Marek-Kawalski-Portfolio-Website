@@ -6,6 +6,9 @@
     <a href="#generalInfo">General info</a>
   </li>
   <li>
+    <a href="#images">Images</a>
+  </li>
+  <li>
     <a href="#technologies">Technologies used</a>
   </li>
    <li>
@@ -26,6 +29,11 @@
 </p>
 <p>Speaking of the website itself, my aim was to make it fast, easy to use and responsive. I choose react.js for a reason, namely it forces developer
 to write more or less clean code. I recently learned that not only is functionality vital but clean code and good programming practices are crucial as well.</p>
+
+ <h2 id="images">Images</h2>
+ <p>
+  <img src="https://user-images.githubusercontent.com/56251920/160255208-54417af2-4ff9-46f8-91ac-25b96a69d16e.png"></img>
+</p>
  <h2 id="technologies">Technologies used</h2>
  <ul>
   <li>
