@@ -44,9 +44,11 @@ function footer() {
             <div className="company-info">
               <img src={marekImage} alt="Marek Kawalski" id="my-image"></img>
               <h3 id="h3_Marek">Marek Kawalski</h3>
+              <i className="fa fa-university"></i>
               <ul>
                 <li>
-                  <i className="fa fa-university"></i> IT student at SUT
+                  3rd year student of Computer Science at Silesian University of
+                  Technology
                 </li>
                 <li>
                   <i class="fab fa-github"></i>

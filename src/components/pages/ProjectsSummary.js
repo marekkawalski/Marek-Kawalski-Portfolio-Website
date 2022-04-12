@@ -137,6 +137,8 @@ function ProjectsSummary() {
                 <span className="badge badge-primary badge-sm">2022</span>
                 <span className="badge badge-primary badge-sm">C#</span>
                 <span className="badge badge-primary badge-sm">asm</span>
+                <span className="badge badge-primary badge-sm">wpf</span>
+                <span className="badge badge-primary badge-sm">xml</span>
               </h5>
               <p className="myProjectDescription">
                 The foremost goal of this project was to implement an algorithm
@@ -253,8 +255,9 @@ function ProjectsSummary() {
                 Medical Clinic Website{" "}
                 <span className="badge badge-primary badge-sm">2021</span>
                 <span className="badge badge-primary badge-sm">
-                  html, css, js, PHP
+                  html, css, js
                 </span>
+                <span className="badge badge-primary badge-sm">PHP</span>
               </h5>
               <p className="myProjectDescription">
                 The target of this project was to create new website for
