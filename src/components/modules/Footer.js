@@ -51,7 +51,7 @@ function footer() {
                   Technology
                 </li>
                 <li>
-                  <i class="fab fa-github"></i>
+                  <i className="fab fa-github"></i>
                   <a
                     className="noLinkLight"
                     href="https://github.com/marekkawalski/"
@@ -62,7 +62,7 @@ function footer() {
                   </a>
                 </li>
                 <li>
-                  <i class="fab fa-linkedin"></i>
+                  <i className="fab fa-linkedin"></i>
                   <a
                     className="noLinkLight"
                     href="https://www.linkedin.com/in/marekkawalski/"
@@ -73,7 +73,7 @@ function footer() {
                   </a>
                 </li>
                 <li>
-                  <i class="fab fa-google-play"></i>
+                  <i className="fab fa-google-play"></i>
                   <a
                     className="noLinkLight"
                     href="https://play.google.com/store/apps/developer?id=Marek+Kawalski"

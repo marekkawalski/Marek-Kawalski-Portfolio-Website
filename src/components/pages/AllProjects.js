@@ -1,14 +1,18 @@
 import React from "react";
+import { Button } from "../modules/Button";
+import { Helmet } from "react-helmet";
 import "./ProjectsSummary.css";
+import Footer from "../modules/Footer";
 import { FuelCostCalculator } from "../modules/Projects/FuelCostCalculator";
 import { ImageContrastEditor } from "../modules/Projects/ImageContrastEditor";
 import { PolynomialCalculator } from "../modules/Projects/PolynomialCalculator";
-import { NotesRepository } from "../modules/Projects/NotesRepository";
+import { ArduinoBikeLed } from "../modules/Projects/ArduinoBikeLed";
+import { PoradniaZerniki } from "../modules/Projects/PoradniaZerniki";
+import { SnakeGame } from "../modules/Projects/SnakeGame";
 import { Clinic } from "../modules/Projects/Clinic";
-import { Button } from "../modules/Button";
-import { HashLink as Link } from "react-router-hash-link";
+import { NotesRepository } from "../modules/Projects/NotesRepository";
 
-function ProjectsSummary() {
+function AllProjects() {
   const orderFunctions = {
     ascendingByValue: (a, b) => a.dataset.value - b.dataset.value,
     descendingByValue: (a, b) => b.dataset.value - a.dataset.value,
@@ -50,7 +54,10 @@ function ProjectsSummary() {
 
   return (
     <>
-      <section id="ProjectsSummary" className="sectionSpace2">
+      <Helmet>
+        <title>My Projects</title>
+      </Helmet>
+      <section id="AllProjects" className="sectionSpace2">
         <h2>My Projects</h2>
 
         <div className="buttons">
@@ -77,18 +84,13 @@ function ProjectsSummary() {
           <FuelCostCalculator />
           <ImageContrastEditor />
           <PolynomialCalculator />
+          <ArduinoBikeLed />
+          <PoradniaZerniki />
+          <SnakeGame />
         </div>
-        <center id="button-view-all">
-          <Link
-            smooth
-            to="/allProjects#AllProjects"
-            className="noLinkLight link-view-more"
-          >
-            <Button>My Projects</Button>
-          </Link>
-        </center>
       </section>
+      <Footer />
     </>
   );
 }
-export default ProjectsSummary;
+export default AllProjects;

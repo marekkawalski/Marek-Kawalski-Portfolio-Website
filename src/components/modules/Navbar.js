@@ -95,7 +95,7 @@ function Navbar() {
               <li className="nav-item">
                 <Link
                   smooth
-                  to="/#ProjectsSummary"
+                  to="/allProjects#AllProjects"
                   className="nav-links link link--thebe nav-links-mobile"
                   onClick={CloseMobileMenu}
                 >
