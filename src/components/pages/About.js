@@ -3,14 +3,14 @@ import React from "react";
 import "./About.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import programmingImage from "../../resources/photos/aboutMe/programming.webp";
-import hackerImage from "../../resources/photos/aboutMe/hacker.webp";
-import technologyImage from "../../resources/photos/aboutMe/technology.webp";
-import talkingImage from "../../resources/photos/aboutMe/talking.webp";
-import skiingImage from "../../resources/photos/aboutMe/skiing.webp";
-import gymImage from "../../resources/photos/aboutMe/gym.webp";
-import carImage from "../../resources/photos/aboutMe/car.webp";
-import cyclingImage from "../../resources/photos/aboutMe/car.webp";
+// import programmingImage from "../../resources/photos/aboutMe/programming.webp";
+// import hackerImage from "../../resources/photos/aboutMe/hacker.webp";
+// import technologyImage from "../../resources/photos/aboutMe/technology.webp";
+// import talkingImage from "../../resources/photos/aboutMe/talking.webp";
+// import skiingImage from "../../resources/photos/aboutMe/skiing.webp";
+// import gymImage from "../../resources/photos/aboutMe/gym.webp";
+// import carImage from "../../resources/photos/aboutMe/car.webp";
+// import cyclingImage from "../../resources/photos/aboutMe/cycling.webp";
 
 function About() {
   /**Add od remove animation class on image click */
@@ -39,7 +39,7 @@ function About() {
           in as many ways as possible. I believe that hard work is the key to
           success.
         </p>
-        <div className="feauture">
+        {/* <div className="feauture">
           <div className="text-ads">
             <div className="image-container">
               <div className="img">
@@ -210,7 +210,7 @@ function About() {
               rewards me with great satisfaction.
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );
