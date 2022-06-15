@@ -10,12 +10,12 @@ function Navbar() {
   const CloseMobileMenu = () => setClick(false);
 
   window.onscroll = function () {
-    var winScroll =
-      document.body.scrollTop || document.documentElement.scrollTop;
-    var height =
-      document.documentElement.scrollHeight -
-      document.documentElement.clientHeight;
-    var scrolled = (winScroll / height) * 100;
+    const winScroll =
+        document.body.scrollTop || document.documentElement.scrollTop;
+    const height =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
     document.getElementById("myBar").style.width = scrolled + "%";
   };
   function getRandomInt(min, max) {
@@ -24,8 +24,8 @@ function Navbar() {
     return Math.floor(Math.random() * (max - min)) + min;
   }
   function chooseRandomAnimation() {
-    var animationClassName = "";
-    var randomValue = getRandomInt(0, 4);
+    let animationClassName;
+    const randomValue = getRandomInt(0, 4);
     if (randomValue === 0) {
       animationClassName = "bounce-in-top";
     } else if (randomValue === 1) {

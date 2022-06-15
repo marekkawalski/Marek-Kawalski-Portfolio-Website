@@ -9,7 +9,7 @@ import "reactjs-popup/dist/index.css";
 function footer() {
   init("user_ecpDO06hQbCynnyDZmne3");
 
-  var sendResult = " result";
+  let sendResult = " result";
 
   function sendEmail(e) {
     e.preventDefault();
@@ -22,11 +22,11 @@ function footer() {
         "user_ecpDO06hQbCynnyDZmne3"
       )
       .then(
-        (result) => {
+        (_result) => {
           sendResult = "message sent!";
           document.getElementById("popupSend").textContent = sendResult;
         },
-        (error) => {
+        (_error) => {
           sendResult = "FAILED...";
           document.getElementById("popupSend").textContent = sendResult;
         }

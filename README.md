@@ -23,16 +23,16 @@
   </ul>
   <h2 id="generalInfo">General info</h2>
 <p>
- This project is my portfolio website which serves a purpose of someking of online CV. My foremost goal was to create a website which I can later show 
+ This project is my portfolio website which serves a purpose of some king of online CV. My foremost goal was to create a website which I can later show 
   to my recruiter during a job interview. I also thought that it could be beneficial for me to learn react.js and become more fluent at web technologies so
-  thats why I decided to create this website.
+  that's why I decided to create this website.
 </p>
 <p>Speaking of the website itself, my aim was to make it fast, easy to use and responsive. I choose react.js for a reason, namely it forces developer
 to write more or less clean code. I recently learned that not only is functionality vital but clean code and good programming practices are crucial as well.</p>
 
  <h2 id="images">Images</h2>
  <p>
-  <img src="https://user-images.githubusercontent.com/56251920/160255208-54417af2-4ff9-46f8-91ac-25b96a69d16e.png"></img>
+  <img src="https://user-images.githubusercontent.com/56251920/160255208-54417af2-4ff9-46f8-91ac-25b96a69d16e.png" alt="my website">
 </p>
  <h2 id="technologies">Technologies used</h2>
  <ul>
