@@ -14,7 +14,7 @@ function Home() {
         <title>Marek Kawalski Portfolio</title>
       </Helmet>
       <HeroSection />
-      <About />
+      {/* <About /> */}
       <Technologies />
       <ProjectsSummary />
       <GallerySummary />
