@@ -10,7 +10,7 @@ import talkingImage from "../../resources/photos/aboutMe/talking.webp";
 import skiingImage from "../../resources/photos/aboutMe/skiing.webp";
 import gymImage from "../../resources/photos/aboutMe/gym.webp";
 import carImage from "../../resources/photos/aboutMe/car.webp";
-import cyclingImage from "../../resources/photos/aboutMe/cycling.webp";
+import cyclingImage from "../../resources/photos/aboutMe/car.webp";
 
 function About() {
   /**Add od remove animation class on image click */
