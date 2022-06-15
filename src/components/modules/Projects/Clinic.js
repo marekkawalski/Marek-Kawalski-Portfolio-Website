@@ -1,7 +1,7 @@
 import React from "react";
 import "../Button.css";
 import "./Projects.css";
-import { Button } from "../../../components/modules/Button";
+import { Button } from "../Button";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import fuelCostCalculator from "../../../resources/photos/myProjects/clinic.png";

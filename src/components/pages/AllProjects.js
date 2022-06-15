@@ -19,17 +19,17 @@ function AllProjects() {
   };
   let currentOrder = orderFunctions.ascendingByValue;
 
-  var myArray = [];
-  var myItemsChildren = document.getElementsByClassName(
-    "Project-Element-Container"
+  const myArray = [];
+  const myItemsChildren = document.getElementsByClassName(
+      "Project-Element-Container"
   );
-  for (var i = 0; i < myItemsChildren.length; i++) {
-    myArray.push(myItemsChildren[i]);
+  for (const element of myItemsChildren) {
+    myArray.push(element);
   }
 
   function order(type) {
-    for (var i = 0; i < myItemsChildren.length; i++) {
-      myArray.push(myItemsChildren[i]);
+    for (const element of myItemsChildren) {
+      myArray.push(element);
     }
 
     if (type === "asc") {
@@ -40,7 +40,7 @@ function AllProjects() {
 
     const ordered = myArray.sort(currentOrder);
 
-    for (var j = 0; j < ordered.length - 1; j++) {
+    for (let j = 0; j < ordered.length - 1; j++) {
       ordered[j].style =
         "border-bottom: 1px solid rgb(230, 236, 248);padding-bottom: 80px";
     }

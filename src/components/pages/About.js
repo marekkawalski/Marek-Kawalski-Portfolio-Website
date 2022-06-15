@@ -14,9 +14,10 @@ import cyclingImage from "../../resources/photos/aboutMe/cycling.webp";
 
 function About() {
   /**Add od remove animation class on image click */
-  var imageClicked = false;
+  let imageClicked = false;
+
   function addClass(id, className) {
-    var element = document.getElementById(id);
+    const element = document.getElementById(id);
     if (imageClicked) {
       element.classList.remove(className);
       imageClicked = false;

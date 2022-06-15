@@ -7,75 +7,75 @@ function animations() {
       (
       <div className="coding-wrapper">
         <div className="loader-container">
-          <div class="group-1">
-            <div class="line line1">
-              <div class="dash dash-1 exp-40 div"></div>
-              <div class="dash dash-2 exp-70 class-name"></div>
-              <div class="dash dash-3 exp-110 class"></div>
-              <div class="dash dash-4 exp-70 class"></div>
+          <div className="group-1">
+            <div className="line line1">
+              <div className="dash dash-1 exp-40 div"></div>
+              <div className="dash dash-2 exp-70 class-name"></div>
+              <div className="dash dash-3 exp-110 class"></div>
+              <div className="dash dash-4 exp-70 class"></div>
             </div>
-            <div class="line line2">
-              <div class="dash dash-1 exp-40 div"></div>
-              <div class="dash dash-2 exp-70 class-name"></div>
-              <div class="dash dash-3 exp-90 class"></div>
+            <div className="line line2">
+              <div className="dash dash-1 exp-40 div"></div>
+              <div className="dash dash-2 exp-70 class-name"></div>
+              <div className="dash dash-3 exp-90 class"></div>
             </div>
-            <div class="line line3">
-              <div class="dash dash-1 exp-300 par"></div>
+            <div className="line line3">
+              <div className="dash dash-1 exp-300 par"></div>
             </div>
-            <div class="line line4">
-              <div class="dash dash-1 exp-200 par"></div>
+            <div className="line line4">
+              <div className="dash dash-1 exp-200 par"></div>
             </div>
-            <div class="line line5">
-              <div class="dash dash-1 exp-40 div"></div>
+            <div className="line line5">
+              <div className="dash dash-1 exp-40 div"></div>
             </div>
-            <div class="line line6">
-              <div class="dash dash-1 exp-40 div"></div>
+            <div className="line line6">
+              <div className="dash dash-1 exp-40 div"></div>
             </div>
           </div>
 
-          <div class="group-2">
-            <div class="line line1">
-              <div class="dash dash-1 div"></div>
-              <div class="dash dash-2 class-name"></div>
-              <div class="dash dash-3 class"></div>
-              <div class="dash dash-4 class"></div>
+          <div className="group-2">
+            <div className="line line1">
+              <div className="dash dash-1 div"></div>
+              <div className="dash dash-2 class-name"></div>
+              <div className="dash dash-3 class"></div>
+              <div className="dash dash-4 class"></div>
             </div>
-            <div class="line line2">
-              <div class="dash dash-1 div"></div>
-              <div class="dash dash-2 exp70 class-name"></div>
-              <div class="dash dash-3 exp90 class"></div>
+            <div className="line line2">
+              <div className="dash dash-1 div"></div>
+              <div className="dash dash-2 exp70 class-name"></div>
+              <div className="dash dash-3 exp90 class"></div>
             </div>
-            <div class="line line3">
-              <div class="dash dash-1 par"></div>
+            <div className="line line3">
+              <div className="dash dash-1 par"></div>
             </div>
-            <div class="line line4">
-              <div class="dash dash-1 par"></div>
+            <div className="line line4">
+              <div className="dash dash-1 par"></div>
             </div>
-            <div class="line line5">
-              <div class="dash dash-1 div"></div>
+            <div className="line line5">
+              <div className="dash dash-1 div"></div>
             </div>
-            <div class="line line6">
-              <div class="dash dash-1 div"></div>
+            <div className="line line6">
+              <div className="dash dash-1 div"></div>
             </div>
           </div>
         </div>
       </div>
       {/***************************************************************/}
-      <div class="hacker-wrapper">
-        <div class="inside-wrapper">
-          <div class="person">
-            <div class="hood">
-              <div class="spects">
+      <div className="hacker-wrapper">
+        <div className="inside-wrapper">
+          <div className="person">
+            <div className="hood">
+              <div className="spects">
                 <span></span>
                 <span></span>
               </div>
             </div>
-            <div class="shoulder">
-              <div class="neck"></div>
+            <div className="shoulder">
+              <div className="neck"></div>
             </div>
           </div>
-          <div class="lap-screen">
-            <span class="base"></span>
+          <div className="lap-screen">
+            <span className="base"></span>
           </div>
         </div>
       </div>
