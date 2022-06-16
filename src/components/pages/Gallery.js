@@ -180,6 +180,9 @@ function gallery() {
       </Helmet>
       <section id="Gallery" className="sectionSpace">
         <h2>Gallery</h2>
+        <p className="centered-p">
+          I am a photography savvy. Below are some of the photos I have taken.
+        </p>
         <div className="gallerySummary-wrapper">{new MyGallery().render()}</div>
       </section>
       <Footer />

@@ -17,7 +17,7 @@ function ProjectsSummary() {
 
   const myArray = [];
   const myItemsChildren = document.getElementsByClassName(
-      "Project-Element-Container"
+    "Project-Element-Container"
   );
   for (const element of myItemsChildren) {
     myArray.push(element);
@@ -84,7 +84,7 @@ function ProjectsSummary() {
             to="/allProjects#AllProjects"
             className="noLinkLight link-view-more"
           >
-            <Button>My Projects</Button>
+            <Button>All Projects</Button>
           </Link>
         </center>
       </section>
